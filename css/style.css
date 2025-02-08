@@ -1,0 +1,97 @@
+/* Variables */
+/*fonts*/
+@font-face {
+  font-family: "GE_SS_Two_Bold";
+  src: url(../assets/fonts/GE_SS_Two_Bold.otf);
+}
+:root {
+  --main-color: #1e4585;
+  --main-transparent-color: rgb(30 69 113 / 50%);
+  --secondary-color: #90c72e;
+  --secondary-transparent-color: rgb(144 199 46 / 70%);
+  --section-padding: 60px;
+  --section-background: #f6f6f6f6;
+  --main-duration: 0.5s;
+  --main-font: "GE_SS_Two_Bold";
+}
+
+/* Global Rules */
+.intro {
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  margin-bottom: 1rem;
+  background-color: var(--main-transparent-color);
+  padding: 20px;
+}
+.section-title {
+  h2 {
+    position: relative;
+    font-family: var(--main-font);
+    font-size: 2.5rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -10px;
+      height: 4px;
+      width: 120px;
+      background-color: var(--main-color);
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -18px;
+      height: 20px;
+      width: 20px;
+      border-radius: 50%;
+      background-color: var(--secondary-color);
+    }
+  }
+}
+.card {
+  background-color: var(--section-background);
+}
+.card:hover .card-img-top {
+  transform: scale(1.1) rotate(15deg);
+}
+.card:hover .card-body {
+  /* top: auto !important; */
+  bottom: 0 !important;
+  background-color: var(--secondary-transparent-color);
+  color: var(--main-color);
+}
+.card-body {
+  bottom: -100%;
+}
+.card-img-top,
+.card-body {
+  transition: all 0.5s ease-in-out;
+}
+
+/* Main */
+/* Landing */
+.landing {
+  background: url(../assets/images/truck.png) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  min-height: 100vh;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* About Us */
+#aboutUs {
+  background: var(--section-background);
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/logo.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="./css/bootstrap.rtl.min.css" /> -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Alshamel Arabian</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              class="rounded"
+              style="width: 50px"
+              src="./assets/images/logo.jpg"
+              alt=""
+            />
+          </a>
+          <!-- <div class="language-selector">
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('ar')">العربية</button>
+          </div> -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#landing"
+                  data-lang-key="homePage"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#products" data-lang-key="products"
+                  >Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aboutUs" data-lang-key="aboutUs"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactUs" data-lang-key="contactUs"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  data-lang-key="language"
+                >
+                  Language
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="changeLanguage('en')"
+                      >English</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="#"
+                      onclick="changeLanguage('ar')"
+                      >العربية</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main -->
+    <!-- Landing -->
+    <main>
+      <section class="landing" id="landing">
+        <div class="container">
+          <div class="row">
+            <div class="intro col-md-6 bg-main-color">
+              <h1 data-lang-key="homeTitle">Welcome to Alshamel Arabian</h1>
+              <p data-lang-key="homeDescription">
+                All you need jsut one Click.
+              </p>
+              <button class="btn btn-primary" data-lang-key="learnMore">
+                Learn More
+              </button>
+            </div>
+            <div class="col-md-6">
+              <!-- <img
+                src="./assets/images/truck.png"
+                class="min-vh-100 w-100"
+                alt="Landing Image"
+              /> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Products -->
+      <section id="products" class="products py-5">
+        <div class="section-title text-center mb-5">
+          <h2 data-lang-key="products">Products</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card position-relative overflow-hidden">
+                <img
+                  src="./assets/images/P01.png"
+                  class="card-img-top"
+                  alt="Product 1"
+                />
+                <div class="card-body position-absolute w-100">
+                  <h5 class="card-title" data-lang-key="product1">Product 1</h5>
+                  <p class="card-text" data-lang-key="product1Description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus, quia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card position-relative overflow-hidden">
+                <img
+                  src="./assets/images/p02.png"
+                  class="card-img-top"
+                  alt="Product 2"
+                />
+                <div class="card-body position-absolute w-100">
+                  <h5 class="card-title" data-lang-key="product2">Product 2</h5>
+                  <p class="card-text" data-lang-key="product2Description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus, quia.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card position-relative overflow-hidden">
+                <img
+                  src="./assets/images/p03.png"
+                  class="card-img-top"
+                  alt="Product 3"
+                />
+                <div class="card-body position-absolute w-100">
+                  <h5 class="card-title" data-lang-key="product3">Product 3</h5>
+                  <p class="card-text" data-lang-key="product3Description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus, quia.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us -->
+      <section id="aboutUs" class="about-us py-5">
+        <div class="section-title text-center mb-5">
+          <h2 data-lang-key="aboutUs">About Us</h2>
+        </div>
+        <div class="container">
+          <img
+            src="./assets/images/logo.jpg"
+            alt=""
+            class="about-img rounded-circle p-5"
+          />
+          <b class="" data-lang-key="aboutTitle"
+            >Al-Shamel Arabian Trading Company</b
+          >
+          <p class="d-inline" data-lang-key="aboutDescription">
+            is a Saudi company accredited by the Ministry of Commerce and
+            Industry and the Chamber of Commerce in Makkah Al-Mukarramah. It is
+            an official company headquartered in the city of Makkah, with a
+            branch in Jeddah Governorate and a representative office in China
+            with employees under our management and full legal responsibility
+            under the commercial dealing system in the Kingdom of Saudi Arabia
+            and bank accounts accredited in the name of the company to guarantee
+            the rights of customers.
+          </p>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+      <section id="contactUs" class="contact-us py-5">
+        <div class="section-title text-center mb-5">
+          <h2 data-lang-key="contactUs">Contact Us</h2>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="card col-md-6 phone shadow p-4">
+              <i class="fa-solid fa-phone fa-5x text-primary mb-4"></i>
+              <ul
+                class="list-unstyled d-flex flex-column justify-content-between align-items-center gap-3"
+              >
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+1234567890">+123 000 000 000</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+1234567890">+123 000 000 000</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone"></i>
+                  <a href="tel:+1234567890">+123 000 000 000</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card col-md-6 address shadow p-4">
+              <i class="fa-solid fa-house fa-5x text-success mb-4"></i>
+              <ul
+                class="list-unstyled d-flex flex-column justify-content-between align-items-center gap-3"
+              >
+                <li>
+                  <i class="fa-solid fa-house"></i>
+                  <a data-lang-key="mainBrach" href="http://googlemaps.com"
+                    >Main Branch</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-house"></i>
+                  <a data-lang-key="jeddahBranch" href="http://googlemaps.com"
+                    >Jeddah Branch</a
+                  >
+                </li>
+                <li>
+                  <i class="fa-solid fa-house"></i>
+                  <a data-lang-key="riyadhBranch" href="http://googlemaps.com"
+                    >Riyadh Branch</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="card col-md-6 email shadow p-4">
+              <i class="fa-solid fa-envelope fa-5x text-danger mb-4"></i>
+              <ul
+                class="list-unstyled d-flex flex-column justify-content-between align-items-center gap-3"
+              >
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:account@mail.com">account@mail.com</a>
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:account@mail.com">account@mail.com</a>
+                </li>
+              </ul>
+            </div>
+            <div class="card col-md-6 social shadow p-4">
+              <i class="fa-solid fa-share-nodes fa-5x text-info mb-4"></i>
+              <ul
+                class="list-unstyled d-flex flex-column justify-content-between align-items-center gap-3"
+              >
+                <li>
+                  <i class="fa-brands fa-facebook me-1"></i
+                  ><a href="http://facebook.com">Facebook</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-twitter me-1"></i
+                  ><a href="http://twitter.com">Twitter</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-instagram me-1"></i
+                  ><a href="http://instagram.com">Instagram</a>
+                </li>
+                <li>
+                  <i class="fa-brands fa-snapchat me-1"></i
+                  ><a href="http://snapchat.com">snapchat</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-body-tertiary text-center py-3" data-lang-key="footer">
+      <p>All rights reserved &copy; Alshamel Arabian 2021</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/language.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "siteName": "My Website",
+  "homePage": "Home",
+  "products": "Products",
+  "aboutUs": "About Us",
+  "contactUs": "Contact Us",
+  "language": "Language",
+
+  "homeTitle": "Welcome to Alshamel Arabian",
+  "homeDescription": "All you need in one place.",
+  "learnMore": "Learn More",
+  "servicesTitle": "Our Services",
+  "contactTitle": "Contact Us",
+
+  "aboutTitle": "Al-Shamel Arabian Trading Company",
+  "aboutDescription": "is a Saudi company accredited by the Ministry of Commerce and Industry and the Chamber of Commerce in Makkah Al-Mukarramah. It is an official company headquartered in the city of Makkah, with a branch in Jeddah Governorate and a representative office in China with employees under our management and full legal responsibility under the commercial dealing system in the Kingdom of Saudi Arabia and bank accounts accredited in the name of the company to guarantee the rights of customers.",
+
+  "product1": "Product 1",
+  "product2": "Product 2",
+  "product3": "Product 3",
+  "product1Description": "Product 1 Description",
+  "product2Description": "Product 2 Description",
+  "product3Description": "Product 3 Description",
+
+  "mainBranch": "Main Branch",
+  "jeddahBranch": "Jeddah Branch",
+  "riyadhBranch": "Riyadh Branch",
+
+  "footer": "All rights reserved © Alshamel Arabian 2021"
+}
